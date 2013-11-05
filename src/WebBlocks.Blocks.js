@@ -51,6 +51,10 @@ WebBlocks.Blocks = new function(){
     
     this.makeBlock = function(element, options){
         
+        if(element.length > 1){
+            throw "WebBlocks.Block.makeBlock does not support selecting multiple elements";
+        }
+        
         element = $(element)
         
         var blockName = false;
