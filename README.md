@@ -91,6 +91,7 @@ $('div.message').each(function(){
     var block = $(this).toBlock();
     // use getters, setters, unsetters, etc. on block
 });
+```
 
 ## License
 
