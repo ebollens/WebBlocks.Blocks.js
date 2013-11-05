@@ -1,0 +1,14 @@
+{
+  "name": "WebBlocks.Blocks.js",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.8.0",
+    "qunit": ">= 1.12.0",
+    "WebBlocks": "ucla/WebBlocks"
+  }
+}
